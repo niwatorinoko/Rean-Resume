@@ -1,9 +1,16 @@
 body {
-    font-family: 'Comic Sans MS', 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Comic Sans MS', 'Zen Maru Gothic';
     background: #f4f4f4;
     margin: 0;
     padding: 0;
 }
+
+.zen-maru-gothic-regular {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 main {
     width: 100%;
     background: clear;
@@ -50,7 +57,7 @@ p {
     font-size: 0.8em;
     color: gray;
     text-align: left;
-    margin: 10px;
+    margin: 5px;
 }
 
 .social-icons {
@@ -58,4 +65,35 @@ p {
     gap: 10px; /* アイコン間の間隔 */
     justify-content: center; /* 中央揃え */
     margin-top: 10px;
+}
+
+.skill-icons {
+    display: flex;
+    gap: 10px; /* アイコン間の間隔 */
+    justify-content: center; /* 中央揃え */
+    margin-top: 10px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column; /* 縦並びにする */
+    align-items: center; /* 中央揃え */
+    text-align: center;
+    gap: 5px; /* 要素間の余白 */
+}
+
+.skill-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    align-items: center;
+    width: 625px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    padding: 20px;
 }
