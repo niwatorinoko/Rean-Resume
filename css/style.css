@@ -103,7 +103,7 @@ p {
     border-radius: 10px;
     transition: transform 0.3s;
     height: 100%;
-    background: #fff; /* 他のカードと混ざらないように背景を指定 */
+    background: #fff;
 }
 
 .portfolio-card:hover {
@@ -124,6 +124,7 @@ p {
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-bottom: 15px;
 }
 
 .portfolio-social-icons a img {

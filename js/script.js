@@ -14,15 +14,15 @@ document.addEventListener("DOMContentLoaded", async function () {
                 <div class="portfolio-card-body text-center d-flex flex-column justify-content-between">
                     <div>
                         <h5 class="portfolio-card-title">${project.title}</h5>
+                        <div class="portfolio-social-icons mt-3">
+                            <a href="${project.source}" target="_blank">
+                                <img src="images/github.png" height="20px" width="20px" alt="GitHub">
+                            </a>
+                            ${project.demo ? `<a href="${project.demo}" target="_blank">
+                                <img src="images/url.png" height="20px" width="20px" alt="Demo">
+                            </a>` : ''}
+                        </div>
                         <p class="portfolio-card-text">${project.summary}</p>
-                    </div>
-                    <div class="portfolio-social-icons mt-3">
-                        <a href="${project.source}" target="_blank">
-                            <img src="images/github.png" height="20px" width="20px" alt="GitHub">
-                        </a>
-                        ${project.demo ? `<a href="${project.demo}" target="_blank">
-                            <img src="images/url.png" height="20px" width="20px" alt="Demo">
-                        </a>` : ''}
                     </div>
                 </div>
             </div>
