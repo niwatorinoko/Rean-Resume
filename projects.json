@@ -3,8 +3,7 @@
     "id": 1,
     "title": "Rean Resume",
     "summary": "このポートフォリオサイトを作成しました。AWSのEC2インスタンス上でUbuntuを使用し、NGINXをWebサーバーとして使用しました。また、セキュリティ対策として、Certbotを用いてSSL/TLS証明書を取得し、サーバーに適用しました。サイトへのアクセス時にHTTPSプロトコルを使用することで、データの暗号化と認証を実現し、通信の安全性を確保しています。",
-    "source": "https://github.com/niwatorinoko/Rean-Resume",
-    "demo": "http://54.226.86.235:8000/"
+    "source": "https://github.com/niwatorinoko/Rean-Resume"
   },
   {
     "id": 2,
@@ -16,23 +15,28 @@
     "id": 3,
     "title": "HealthSync",
     "summary": "Djangoを利用したWebアプリです。ユーザーの情報を元におすすめの運動や料理、健康に関するTipsを紹介しています。AWSのEC2を使用し、デプロイしました。",
-    "source": "https://github.com/niwatorinoko/HealthSync",
-    "demo": "http://54.226.86.235:8000/"
+    "source": "https://github.com/niwatorinoko/HealthSync"
   },
   {
     "id": 4,
+    "title": "Marketing Strategy DSS",
+    "summary": "streamlitを使い、任意のCSVをアップロードして①顧客の購買履歴に基づいた顧客セグメンテーション、②売上履歴に基づいた商品販売集計・予測のどちらかまたは両方を行い、その結果をGeminiに投げてマーケティング戦略の意思決定を支援するシステムです。",
+    "source": "https://github.com/niwatorinoko/Marketing-Strategy-DSS"
+  },
+  {
+    "id": 5,
     "title": "Local Chat Messenger",
     "summary": "PythonのUDPを用いたソケット通信とfakerライブラリを使用し、クライアントサーバ間で情報をやりとりするCLIで操作するプログラムです。",
     "source": "https://github.com/niwatorinoko/Local-Chat-Messenger"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Markdown To HTML Converter",
     "summary": "任意のマークダウンファイルをHTMLファイルに変換するプログラムです。",
     "source": "https://github.com/niwatorinoko/Markdown-To-HTML-Converter"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "File Manipulator Program",
     "summary": "Pythonのosライブラリを使用し、ファイルの操作を行うプログラムです。テキストベースのファイルの内容を反転・コピー・複製・文字の置き換えした新しいファイルを作成することができます。",
     "source": "https://github.com/niwatorinoko/File-Manipulator-Program"
